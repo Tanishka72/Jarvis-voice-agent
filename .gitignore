@@ -1,0 +1,15 @@
+# secrets
+.env
+# local environments, models, databases and generated files
+.venv/
+.models/
+.rag_db/
+data/
+logs/
+__pycache__/
+.pytest_cache/
+
+# your own PDFs stay private (a book may be copyrighted); add them to documents/ locally
+documents/*
+!documents/.gitkeep
+Machine_Learning_From_Zero_to_Advanced.pdf

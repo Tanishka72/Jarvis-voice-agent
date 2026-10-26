@@ -1,0 +1,26 @@
+{
+  "document": "Machine_Learning_From_Zero_to_Advanced.pdf",
+  "note": "expected_pages come from the book's table of contents (a section's pages). An empty list means the question is NOT covered by the book and the pipeline should say so.",
+  "questions": [
+    {"question": "What is the difference between precision and recall?", "intent": "compare", "expected_pages": [46, 47]},
+    {"question": "How do transformers use the attention mechanism?", "intent": "fact", "expected_pages": [40, 41]},
+    {"question": "What is a confusion matrix?", "intent": "fact", "expected_pages": [45, 46]},
+    {"question": "How do LSTMs deal with the vanishing gradient problem?", "intent": "fact", "expected_pages": [38, 39]},
+    {"question": "What are the advantages of random forest?", "intent": "list", "expected_pages": [24, 25]},
+    {"question": "What is DBSCAN and when should it be used?", "intent": "fact", "expected_pages": [32, 33]},
+    {"question": "How does principal component analysis reduce dimensions?", "intent": "fact", "expected_pages": [33, 34, 35]},
+    {"question": "What is SHAP and how does it explain predictions?", "intent": "fact", "expected_pages": [54, 55]},
+    {"question": "How does LIME explain a single prediction?", "intent": "fact", "expected_pages": [56, 57]},
+    {"question": "What is data leakage?", "intent": "fact", "expected_pages": [48, 49]},
+    {"question": "Who invented machine learning?", "intent": "fact", "expected_pages": [7]},
+    {"question": "What is the difference between Ridge and Lasso regularization?", "intent": "compare", "expected_pages": [16, 17]},
+    {"question": "How is gradient boosting different from AdaBoost?", "intent": "compare", "expected_pages": [25, 26, 27]},
+    {"question": "How does k-means clustering work?", "intent": "fact", "expected_pages": [30, 31]},
+    {"question": "What is the flood risk prediction case study about?", "intent": "summary", "expected_pages": [64]},
+    {"question": "What is transfer learning?", "intent": "fact", "expected_pages": [43, 44]},
+    {"question": "How does Grad-CAM create visual explanations for CNNs?", "intent": "fact", "expected_pages": [57, 58, 59]},
+    {"question": "How do I cook chicken biryani?", "intent": "fact", "expected_pages": []},
+    {"question": "What is the capital of France?", "intent": "fact", "expected_pages": []},
+    {"question": "Who won the 2022 FIFA World Cup?", "intent": "fact", "expected_pages": []}
+  ]
+}
